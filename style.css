@@ -5,8 +5,8 @@ body {
 
 img {
     border-radius: 25px;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 
 /* Headings Class Settings */
