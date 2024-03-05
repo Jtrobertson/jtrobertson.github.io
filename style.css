@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: hsl(31, 54%, 90%);
     font-size: 16px;
@@ -5,8 +9,10 @@ body {
 
 img {
     border-radius: 25px;
-    height: 100%;
-    width: 100%;
+    height: 375px;
+    width: 675px;
+    padding-top: 20px;
+    
 }
 
 /* Headings Class Settings */
@@ -17,20 +23,26 @@ img {
 
 .ingredients .instructions .nutrition {
     color: hsl(14, 45%, 36%);
+    text-align: left;
 }
 
 /* Recipe Card & Box Settings */
 
 .recipe-card {
-    background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    margin: 50px 20% 50px 20%;
+    padding: 25px 50px 0px 50px;
+    border-radius: 25px;
 }
 
 .highlight {
     background-color: hsl(330, 100%, 98%);
+    border-radius: 25px;
+    padding-left: 50px;
 }
 
 /* Paragraphs & Tables Class Settings */
