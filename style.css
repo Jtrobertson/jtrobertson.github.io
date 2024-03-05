@@ -24,8 +24,9 @@ img {
 .recipe-card {
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .highlight {
