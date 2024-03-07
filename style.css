@@ -25,7 +25,7 @@ h1 {
     color: hsl(332, 51%, 32%);
 }
 
-.ingredients .instructions .nutrition {
+.recipe-ingredients .recipe-instructions .recipe-nutrition {
     color: hsl(14, 45%, 36%);
     text-align: left;
 }
@@ -43,7 +43,7 @@ h1 {
     border-radius: 25px;
 }
 
-.highlight {
+.recipe-preparation {
     background-color: hsl(330, 100%, 98%);
     border-radius: 25px;
     padding-left: 50px;
