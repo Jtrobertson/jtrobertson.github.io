@@ -11,8 +11,12 @@ img {
     border-radius: 25px;
     height: 375px;
     width: 675px;
-    padding-top: 20px;
+    margin-top: 10px;
     
+}
+
+h1 {
+    text-align: left;
 }
 
 /* Headings Class Settings */
