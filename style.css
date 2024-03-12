@@ -51,14 +51,14 @@ h1 {
 }
 
 .recipe-summary {
-    font-family: "Young", sans-serif;
+    font-family: "Young", serif;
 }
 
 .recipe-preparation {
     background-color: hsl(330, 100%, 98%);
     border-radius: 25px;
     padding-left: 25px;
-    font-family: "Young";
+    font-family: "Young", serif;
 }
 
 /* Paragraphs & Tables Class Settings */
