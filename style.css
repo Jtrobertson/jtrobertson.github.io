@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Outfit-Black', serif;
+    src: url(./recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Young', sans-serif;
+    src: url(./recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+}
+
 body {
     background-color: hsl(31, 54%, 90%);
     font-size: 16px;
@@ -11,7 +21,6 @@ img {
     border-radius: 25px;
     height: 375px;
     width: 675px;
-    margin-top: 10px;
 }
 
 h1 {
@@ -37,14 +46,19 @@ h1 {
     justify-content: center;
     background-color: hsl(0, 0%, 100%);
     margin: 50px 20% 50px 20%;
-    padding: 25px 50px 0px 50px;
+    padding: 40px 40px 40px 40px;
     border-radius: 25px;
+}
+
+.recipe-summary {
+    font-family: "Young", sans-serif;
 }
 
 .recipe-preparation {
     background-color: hsl(330, 100%, 98%);
     border-radius: 25px;
-    padding-left: 50px;
+    padding-left: 25px;
+    font-family: "Young";
 }
 
 /* Paragraphs & Tables Class Settings */
