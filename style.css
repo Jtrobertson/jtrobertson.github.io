@@ -5,11 +5,13 @@
 @font-face {
     font-family: 'Outfit-Black', sans-serif;
     src: url(./recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Black.ttf) format('truetype');
+    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Young', serif;
     src: url(./recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 400;
 }
 
 body {
@@ -58,7 +60,7 @@ h1 {
     background-color: hsl(330, 100%, 98%);
     border-radius: 25px;
     padding-left: 25px;
-    font-family: "Young", serif;
+    font-family: "Outfit-Black", sans-serif;
 }
 
 /* Paragraphs & Tables Class Settings */
