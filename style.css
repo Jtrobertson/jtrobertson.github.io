@@ -3,12 +3,12 @@
 }
 
 @font-face {
-    font-family: 'Outfit-Black', serif;
+    font-family: 'Outfit-Black', sans-serif;
     src: url(./recipe-page-main/recipe-page-main/assets/fonts/outfit/static/Outfit-Black.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Young', sans-serif;
+    font-family: 'Young', serif;
     src: url(./recipe-page-main/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
 }
 
