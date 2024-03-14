@@ -33,6 +33,10 @@ p {
     font-family: "Outfit", serif;
 }
 
+tr {
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+
 td {
     border-bottom: 1px solid hsl(24, 5%, 18%);
     width: 300px;
@@ -50,6 +54,10 @@ td {
     color: hsl(14, 45%, 36%);
     text-align: left;
     font-family: "Young", serif;
+}
+
+.ingredients-title, .instructions-title, .nutrition-title {
+    border-bottom: 1px solid hsl(24, 5%, 18%);
 }
 
 /* Recipe Card & Box Settings */
