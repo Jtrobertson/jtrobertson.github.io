@@ -42,9 +42,10 @@ td {
     color: hsl(332, 51%, 32%);
 }
 
-.ingredients-title, .instructions-title, .nutrition-title {
+.recipe-title, .ingredients-title, .instructions-title, .nutrition-title {
     color: hsl(14, 45%, 36%);
     text-align: left;
+    font-family: "Young", serif;
 }
 
 /* Recipe Card & Box Settings */
@@ -57,10 +58,6 @@ td {
     margin: 50px 20% 50px 20%;
     padding: 40px 40px 40px 40px;
     border-radius: 25px;
-}
-
-.recipe-summary {
-    font-family: "Young", serif;
 }
 
 .recipe-preparation {
@@ -79,6 +76,7 @@ td {
 .color-span {
     font-weight: bold;
     color: hsl(14, 45%, 36%);
+    font-family: "Young", serif;
 }
 /* Misc Settings */
 
