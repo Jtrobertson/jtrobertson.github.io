@@ -34,8 +34,8 @@ p {
 }
 
 td {
-    border-bottom: 1px solid hsl(24, 5%, 18%);
-    width: 300px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: auto;
     padding: 10px;
 }
 
@@ -70,7 +70,7 @@ td.last-row {
 
 .recipe-ingredients,
 .recipe-instructions {
-    border-bottom: 1px solid hsl(24, 5%, 18%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
     padding-bottom: 20px;
 }
 
@@ -106,6 +106,7 @@ td.last-row {
 
 .nutrition-table {
     font-family: "Outfit", serif;
+    width: 100%;
 }
 
 .color-span {
