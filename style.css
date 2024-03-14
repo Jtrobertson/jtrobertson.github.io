@@ -33,7 +33,7 @@ p {
     font-family: "Outfit", serif;
 }
 
-tr .top-row:not(:first-child) {
+tr .nutrition-table:not(:first-child) {
     border-top: 1px solid hsl(30, 18%, 87%);
     width: 300px;
     padding: 10px;
