@@ -45,8 +45,8 @@ td.last-row {
 
 /* Headings Class Settings */
 
-.preptime {
-    color: hsl(332, 51%, 32%);
+.recipe-summary {
+    padding-bottom: 20px;
 }
 
 .recipe-title {
@@ -55,9 +55,14 @@ td.last-row {
     font-family: "Young", serif;
 }
 
+.preptime {
+    color: hsl(332, 51%, 32%);
+}
+
 .ingredients-title,
 .instructions-title,
 .nutrition-title {
+    font-size: 28px;
     color: hsl(14, 45%, 36%);
     text-align: left;
     font-family: "Young", serif;
@@ -67,6 +72,11 @@ td.last-row {
 .recipe-instructions {
     border-bottom: 1px solid hsl(24, 5%, 18%);
     padding-bottom: 20px;
+}
+
+.ingredients-title, 
+.instructions-title {
+    padding-top: 10px;
 }
 
 /* Recipe Card & Box Settings */
