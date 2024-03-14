@@ -33,13 +33,13 @@ p {
     font-family: "Outfit", serif;
 }
 
-tr {
+td {
     border-bottom: 1px solid hsl(24, 5%, 18%);
     width: 300px;
     padding: 10px;
 }
 
-tr.last-row {
+td.last-row {
     border-bottom: none;
 }
 
