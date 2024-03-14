@@ -58,10 +58,15 @@ td.last-row {
 .ingredients-title,
 .instructions-title,
 .nutrition-title {
-    border-bottom: 1px solid hsl(24, 5%, 18%);
     color: hsl(14, 45%, 36%);
     text-align: left;
     font-family: "Young", serif;
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+    padding-bottom: 20px;
 }
 
 /* Recipe Card & Box Settings */
