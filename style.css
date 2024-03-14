@@ -77,6 +77,10 @@ td {
     font-weight: bold;
 }
 
+.nutrition-table {
+    font-family: "Outfit", serif;
+}
+
 .color-span {
     font-weight: bold;
     color: hsl(14, 45%, 36%);
