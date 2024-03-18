@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 375px) {
+    img {
+        height: 100px;
+        width: 150px;
+    }
+
+    body {
+        font-size: .75rem;
+    }
+}
+
 @font-face {
     font-family: 'Outfit';
     src: url(./recipe-page-main/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype-variations');
