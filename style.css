@@ -134,4 +134,17 @@ td.last-row {
     body {
         font-size: .75rem;
     }
+
+    h3 {
+        font-size: .75rem;
+    }
+
+    .preptime {
+        padding-right: 10px;
+    }
+
+    .recipe-preparation ul {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
