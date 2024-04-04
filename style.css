@@ -21,8 +21,8 @@ body {
 
 img {
     border-radius: 25px;
-    height: 375px;
-    width: 675px;
+    height: auto;
+    width: 100%;
 }
 
 h1 {
@@ -125,12 +125,7 @@ td.last-row {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 375px) and (max-width: 425px) {
-    img {
-        height: 100px;
-        width: 150px;
-    }
-
+@media only screen and (max-width: 425px) {
     body {
         font-size: .75rem;
     }
